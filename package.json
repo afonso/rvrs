@@ -1,0 +1,25 @@
+{
+  "name": "rvrs",
+  "version": "1.0.0",
+  "description": "Reverse Shell as a Service",
+  "engines": {
+    "node": "16.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "micro -l tcp://0.0.0.0:${PORT-3000}"
+  },
+  "dependencies": {
+    "micro": "^9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/afonso/rvrs"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
